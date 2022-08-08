@@ -66,6 +66,7 @@ const ContactForm = () => {
             className='formField'
             name="name"
             onInput={(e) => setName(e.target.value)}
+            onFocus={(e) => e.preventDefault()}
             value={name}
             required
           />
@@ -75,6 +76,7 @@ const ContactForm = () => {
           <input
             type="email"
             className='formField'
+            onFocus={(e) => e.preventDefault()}
             id="email"
             name="email"
             onInput={(e) => setEmail(e.target.value)}
@@ -87,6 +89,7 @@ const ContactForm = () => {
           <textarea
             id="message"
             className='formField'
+            onFocus={(e) => e.preventDefault()}
             name="message"
             onInput={(e) => setMessage(e.target.value)}
             value={message}
@@ -100,6 +103,7 @@ const ContactForm = () => {
             type="checkbox"
             id="botcheck"
             name="botcheck"
+            onFocus={(e) => e.preventDefault()}
             onChange={(e) => setBotCheck(e.target.checked)}
             checked={botCheck}
             required
