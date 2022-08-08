@@ -39,9 +39,9 @@ export default function Home() {
       //HERO splash background section trigger
       const bg_tl = gsap.timeline()
       .add("start")
-      .to("#bg_layer1", { duration: 1, scale: 1.05, y: 15 }, "start")
-      .to("#bg_layer2", { duration: 1, y: 35 }, "start")
-      .to("#bg_layer3", { duration: 1, y: 25 }, "start");
+      .to("#bg_layer1", { lazy: false, duration: 1, scale: 1.05, y: 15 }, "start")
+      .to("#bg_layer2", { lazy: false, duration: 1, y: 35 }, "start")
+      .to("#bg_layer3", { lazy: false, duration: 1, y: 25 }, "start");
       ScrollTrigger.create({
         animation:bg_tl,
         trigger: "#hero-section",
@@ -87,13 +87,14 @@ export default function Home() {
       //introduction section scroll trigger
    
       const expanding_tl = gsap.timeline()
-        .from(".state-circle", { duration: 1, scale: 0, opacity: 0 });
+        .from(".state-circle", { lazy: false, duration: 1, scale: 0, opacity: 0 });
 
       gsap.from("#open-blurb", { 
           scrollTrigger: "#intro-section",
           duration: 0.7, 
           y:200, 
-          opacity: 0 
+          opacity: 0,
+          lazy: false
       });
 
       ScrollTrigger.create({
@@ -110,11 +111,11 @@ export default function Home() {
       .add("start")
       .to(
         "#sawguy-img",
-        { duration:.5, left: "35%", ease: "back" },
+        { lazy: false, duration:.5, left: "35%", ease: "back" },
       )
       .to(
         "#treetop-img",
-        { duration: .5, rotate:"90deg", right:'-4%', ease: "back", delay:.5 }, "start"
+        { lazy: false, duration: .5, rotate:"90deg", right:'-4%', ease: "back", delay:.5 }, "start"
       );
       ScrollTrigger.create({
         animation:remove_tl,
@@ -134,12 +135,12 @@ export default function Home() {
       .add("start")
       .to(
         "#lifttruck-img",
-        { duration: 1, right: "30%", ease: "power3" },
+        { lazy: false, duration: 1, right: "30%", ease: "power3" },
         "start"
       )
       .to(
         "#liftbasket-img",
-        { duration: 1, top: "43%", right: "33%", ease: "power3" },
+        { lazy: false, duration: 1, top: "43%", right: "33%", ease: "power3" },
         "start"
       );
       ScrollTrigger.create({
@@ -159,33 +160,33 @@ export default function Home() {
       .add("start")
       .to(
         "#pulltruck-img",
-        { duration: 1, left: "23%", ease: "power3" },
+        { lazy: false, duration: 1, left: "23%", ease: "power3" },
         "start"
       )
       .to(
         "#hook-img",
-        { duration: 1, left: "22%", rotate: "45deg", ease: "power3" },
+        { lazy: false, duration: 1, left: "22%", rotate: "45deg", ease: "power3" },
         "start"
       )
       .to(
         "#stump-img",
-        { duration: 1, left: "5%", rotate: "45deg", ease: "power3" },
+        { lazy: false, duration: 1, left: "5%", rotate: "45deg", ease: "power3" },
         "start"
       )
       .add("move")
       .to(
         "#pulltruck-img",
-        { duration: 1, left: "73%", ease: "power3" },
+        { lazy: false, duration: 1, left: "73%", ease: "power3" },
         "move"
       )
       .to(
         "#hook-img",
-        { duration: 1, left: "72%", rotate: "45deg", ease: "power3" },
+        { lazy: false, duration: 1, left: "72%", rotate: "45deg", ease: "power3" },
         "move"
       )
       .to(
         "#stump-img",
-        { duration: 1, top:"15%", left: "55%", rotate: "90deg", ease: "power3" },
+        { lazy: false, duration: 1, top:"15%", left: "55%", rotate: "90deg", ease: "power3" },
         "move"
       );
       ScrollTrigger.create({
@@ -206,12 +207,12 @@ export default function Home() {
       //treezoom_tl.from('#goof',{duration:.7, opacity:0, x:200},'start');
       .to(
         ".tree-zoom-mag",
-        { duration: 1, right: "-20px", top: "65px" },
+        { lazy: false, duration: 1, right: "-20px", top: "65px" },
         "start"
       )
       .to(
         ".tree-zoom-mag-inner",
-        { duration: 1, backgroundPosition: "-175px -220px" },
+        { lazy: false, duration: 1, backgroundPosition: "-175px -220px" },
         "start"
       );
       ScrollTrigger.create({
@@ -443,6 +444,7 @@ export default function Home() {
             <img
               id="liftbasket-img"
               src="images/lif_basket.png"
+              style={{ top: "45.0513%", right: "48.%" }}
             />
             <img
               id="talltree-img"
