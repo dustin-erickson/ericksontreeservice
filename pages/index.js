@@ -669,7 +669,7 @@ export default function Home() {
               We live in an area that is prone to severe weather, which can often lead to damage to trees. 
               This damage can in turn cause damage to property, structures, and power lines. 
               If you find yourself in need of expidient tree removal or professional assessment, 
-              please don't hesitate to contact us. We're here to help!
+              please don&apos;t hesitate to contact us. We&apos;re here to help!
             </div>
           </div>
         </div>
@@ -680,7 +680,7 @@ export default function Home() {
         <div className="blurb">
           <h3>Trimming</h3>
           Tree trimming is an important part of tree care. Trimming can help to
-          improve the tree's appearance, remove dead or damaged branches, and
+          improve the tree&apos;s appearance, remove dead or damaged branches, and
           promote new growth. It is important to trim trees regularly to keep them
           healthy and looking their best.
         </div>
@@ -751,7 +751,7 @@ export default function Home() {
             <div className="blurb">
               <h5>Enjoy The View</h5>
               We often do our trimming high up off the gound and are afforded wonderful views of the surrounding area.
-              We're proud to be the recipient of back-to-back "best of Mitchell, SD" business of the year awards. When you choose us, you can be confident that you're getting the best tree service in the area. Contact us today for a free consultation.
+              We&apos;re proud to be the recipient of back-to-back &quot;best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. Contact us today for a free consultation.
             </div>
           </div>
         </div>  
@@ -830,7 +830,7 @@ export default function Home() {
             <div className="blurb">
               <h5>Enjoy The View</h5>
               We often do our trimming high up off the gound and are afforded wonderful views of the surrounding area.
-              We're proud to be the recipient of back-to-back "best of Mitchell, SD" business of the year awards. When you choose us, you can be confident that you're getting the best tree service in the area. Contact us today for a free consultation.
+              We&apos;re proud to be the recipient of back-to-back &quot;best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. Contact us today for a free consultation.
             </div>
           </div>
         </div>  
@@ -858,7 +858,7 @@ export default function Home() {
             </div>
           </div>
           <div id="arb_blurb">
-            <h4>An <u>arborist</u> is also known as a "tree surgeon"</h4>
+            <h4>An <u>arborist</u> is also known as a &quot;tree surgeon&quot;</h4>
           </div>
         </div>
       </section>
