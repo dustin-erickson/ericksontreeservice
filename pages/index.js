@@ -521,7 +521,7 @@ export default function Home() {
             <img
               id="stump-img"
               src="images/stump.png"
-              style={{width: '27%', bottom: '44%'}}
+              style={{width: '27%', top: '22.5933%'}}
             />
             <img
               id="pulltruck-img"
