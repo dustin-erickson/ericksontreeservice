@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
-    "gsap": "3.8.0",
-    "next": "12.2.3",
+    "gsap": "3.10.4",
+    "next": "12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "scrollmagic": "^2.0.8",
@@ -19,7 +19,7 @@
     "scrollmagic-plugins": "^1.0.8"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3"
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4"
   }
 }

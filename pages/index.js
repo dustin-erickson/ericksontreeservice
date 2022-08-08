@@ -521,6 +521,7 @@ export default function Home() {
             <img
               id="stump-img"
               src="images/stump.png"
+              style={{width: '27%', bottom: '44%'}}
             />
             <img
               id="pulltruck-img"
@@ -627,7 +628,7 @@ export default function Home() {
               Check us out on facebook! <br />
               
             </p>
-            <div style={{display:'flex', gap:'25px', fontSize:'.8rem', margin:"auto"}}>
+            <div style={{display:'flex', gap:'25px', fontSize:'.8rem', margin:"0 auto"}}>
               <div className="company-address">
                 Erickson Tree Service<br />
                 PO Box 1282<br />
