@@ -17,48 +17,6 @@ export default function Home() {
       "(prefers-reduced-motion: reduce)"
     );
     
-    // ScrollTrigger.create({
-    //   animation:tl_vid,
-    //   trigger: "#video-section",
-    //   start: "top top",
-    //   pin:true,
-    //   pinSpacing: true,
-    //   anticipatePin: 1,
-    //   end: "20%",
-    //   markers: true,
-    //   invalidateOnRefresh:false,
-    //   // onToggle: self => console.log("toggled, isActive:", self.isActive),
-    //   // onUpdate: self => {
-    //   //   console.log("progress:", self.progress.toFixed(3), "direction:", self.direction, "velocity", self.getVelocity());
-    //   // }
-    // });
-
-    // ScrollTrigger.create({
-    //   trigger: "#removalsection",
-    //   start: "top top",
-    //   pin:true,
-    //   pinSpacing: true,
-    //   anticipatePin: 1,
-    //   end: "50%",
-    //   pinReparent: true,
-    //   markers: true,
-    //   onToggle: self => {
-    //     console.log("toggled, isActive:", self.isActive)
-    //     if (self.isActive) {
-    //       tl_vid.play();
-    //     }
-    // },
-    //   onUpdate: self => {
-    //     console.log("progress:", self.progress.toFixed(3), "direction:", self.direction, "velocity", self.getVelocity());
-    //   }
-    // });
-
-    // const controller = new scrollmagic.Controller({
-    //   globalSceneOptions: {
-    //     triggerHook: "onLeave",
-    //   },
-    // });
-  
     if (!prefersReducedMotion.matches) {
 
       const {ScrollTrigger} = require("gsap/ScrollTrigger");
@@ -89,7 +47,6 @@ export default function Home() {
         trigger: "#hero-section",
         start: "top top",
         end: "20%",
-        markers: true,
         scrub:true,
         invalidateOnRefresh:false,
       });
@@ -109,7 +66,6 @@ export default function Home() {
         pinSpacing: true,
         anticipatePin: 1,
         end: "20%",
-        markers: true,
         invalidateOnRefresh:false,
         onToggle: self => {
           console.log("toggled, isActive:", self.isActive)
@@ -145,7 +101,6 @@ export default function Home() {
         trigger: "#intro-section",
         start: "top top",
         end: "20%",
-        markers: true,
         scrub:1,
         invalidateOnRefresh:false,
       });
@@ -168,10 +123,9 @@ export default function Home() {
         pin:true,
         pinSpacing: true,
         anticipatePin: 1,
-        pinType: "transform",
+        //pinType: "transform",
         scrub:true,
         end: "50%",
-        markers: true,
       });
 
     
@@ -195,10 +149,9 @@ export default function Home() {
         pin:true,
         pinSpacing: true,
         anticipatePin: 1,
-        pinType: "transform",
+        //pinType: "transform",
         scrub:true,
         end: "50%",
-        markers: true,
       });
 
       //stump section scroll trigger
@@ -242,10 +195,9 @@ export default function Home() {
         pin:true,
         pinSpacing: true,
         anticipatePin: 1,
-        pinType: "transform",
+        //pinType: "transform",
         scrub:true,
         end: "50%",
-        markers: true,
       });
 
       //arborist section scroll trigger
@@ -269,213 +221,11 @@ export default function Home() {
         pin:true,
         pinSpacing: true,
         anticipatePin: 1,
-        pinType: "transform",
+        //pinType: "transform",
         scrub:true,
         end: "50%",
-        markers: true,
       });
-
-    
-
-      //setup TweenS!!!
-      // const intro_blurb_tl = new TimelineMax();
-      // intro_blurb_tl.from("#open-blurb", { duration: 0.7, x: -200, opacity: 0 });
-      // intro_blurb_tl.from("#arb_blurb", { duration: 0.7, x: 200, opacity: 0 });
-
-    
-
-      // const treezoom_tl = new TimelineMax();
-      // treezoom_tl.add("start");
-      // //treezoom_tl.from('#goof',{duration:.7, opacity:0, x:200},'start');
-      // treezoom_tl.to(
-      //   ".tree-zoom-mag",
-      //   { duration: 1, right: "-20px", top: "65px" },
-      //   "start"
-      // );
-      // treezoom_tl.to(
-      //   ".tree-zoom-mag-inner",
-      //   { duration: 1, backgroundPosition: "-175px -220px" },
-      //   "start"
-      // );
-      // treezoom_tl.to(
-      //   "#open-blurb img",
-      //   { duration: 1, y: -3, scale: 1.03 },
-      //   "start"
-      // );
-      // //treezoom_tl.from('.trim-blurb',{duration:.5, opacity:0, x:-200},'start');
-
-      // const trim_tl = new TimelineMax();
-      // trim_tl.add("start");
-
-      // trim_tl.to(
-      //   "#lifttruck-img",
-      //   { duration: 1, right: "30%", ease: "power3" },
-      //   "start"
-      // );
-      // trim_tl.to(
-      //   "#liftbasket-img",
-      //   { duration: 1, top: "43%", right: "33%", ease: "power3" },
-      //   "start"
-      // );
       
-      // const remove_tl = new TimelineMax();
-      // remove_tl.add("start");
-      // remove_tl.to(
-      //   "#sawguy-img",
-      //   { duration:.5, left: "35%", ease: "back" },
-      // );
-      // remove_tl.to(
-      //   "#treetop-img",
-      //   { duration: .5, rotate:"90deg", right:'-4%', ease: "back", delay:.5 }, "start"
-      // );
-      
-      
-      
-
-      // const section4tl = new TimelineMax();
-      // section4tl.add("start");
-      // section4tl.to(
-      //   "#pulltruck-img",
-      //   { duration: 1, left: "23%", ease: "power3" },
-      //   "start"
-      // );
-      // section4tl.to(
-      //   "#hook-img",
-      //   { duration: 1, left: "22%", rotate: "45deg", ease: "power3" },
-      //   "start"
-      // );
-      // section4tl.to(
-      //   "#stump-img",
-      //   { duration: 1, left: "5%", rotate: "45deg", ease: "power3" },
-      //   "start"
-      // );
-      // section4tl.add("move");
-      // section4tl.to(
-      //   "#pulltruck-img",
-      //   { duration: 1, left: "73%", ease: "power3" },
-      //   "move"
-      // );
-      // section4tl.to(
-      //   "#hook-img",
-      //   { duration: 1, left: "72%", rotate: "45deg", ease: "power3" },
-      //   "move"
-      // );
-      // section4tl.to(
-      //   "#stump-img",
-      //   { duration: 1, top:"15%", left: "55%", rotate: "90deg", ease: "power3" },
-      //   "move"
-      // );
-      // const bg_tl = new TimelineMax();
-      // bg_tl.add("start");
-      // bg_tl.to("#bg_layer1", { duration: 1, scale: 1.05, y: 15 }, "start");
-      // bg_tl.to("#bg_layer2", { duration: 1, y: 35 }, "start");
-      // bg_tl.to("#bg_layer3", { duration: 1, y: 25 }, "start");
-    
-      // const expanding_tl = new TimelineMax();
-      // expanding_tl.add("start");
-      // expanding_tl.from(".state-circle", { duration: 1, scale: 0, opacity: 0 });
-      
-      // const blackafade_tl = new TimelineMax();
-      // blackafade_tl.add("start");
-      // blackafade_tl.to("#overlay", { duration: 2, opacity: 0.6 }, 'start');
-      // blackafade_tl.pause();
-      
-    //   new scrollmagic.Scene({
-    //     triggerElement: ".hero-section",
-    //     //reverse: false,
-    //     duration: "100%", // the scene should last for a scroll distance of 100px
-    //     })
-    //     .setTween(bg_tl)
-    //     .addTo(controller);
-      
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#video-section",
-    //     reverse: false, //stop from play in reverse when triggered again
-    //     offset:-300
-    //   })
-    //     .setTween(tl_vid)
-    //     .addTo(controller);
-
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#video-section",
-    //     duration: "20%",
-    //   })
-    //   .on('enter', (event)=>{
-    //     if (document.getElementById('play_controls').dataset.is_paused == "PAUSE") {
-    //       playVideo();
-    //     }
-    //     blackafade_tl.play();
-    //   })
-    //   .on('leave',(event)=>{
-    //     pauseVideo();
-    //     blackafade_tl.reverse();
-    //   })
-    //   .setPin("#video-section") // pins the element for the the scene's duration
-    //   .addTo(controller); // assign the scene to the controller
-
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#intro-section",
-    //     reverse: false, //stop from play in reverse when triggered again
-    //     offset: -300,
-    //     })
-    //     .setTween(intro_blurb_tl)
-    //     .addTo(controller); // assign the scene to the controller
-      
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#intro-section",
-    //     offset:-200,
-    //     //reverse: false,
-    //     duration: "50%", // the scene should last for a scroll distance of 100px
-    //     })
-    //     .setTween(expanding_tl)
-    //     .addTo(controller); // assign the scene to the controller
-    
-
-      
-    //    new scrollmagic.Scene({
-    //     triggerElement: "#removalsection",
-    //     //reverse: false,
-    //     duration: "50%", // the scene should last for a scroll distance of 100px
-    //     })
-    //     .setPin("#removalsection") // pins the element for the the scene's duration
-    //     .setTween(remove_tl)
-    //     .addTo(controller); // assign the scene to the controller
-
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#trim-section",
-    //     //reverse: false,
-    //     duration: "50%", // the scene should last for a scroll distance of 100px
-    //   })
-    //     // .addIndicators({
-    //     //   name:"Enter Animation"
-    //     // })
-    //     .setPin("#trim-section") // pins the element for the the scene's duration
-    //     .setTween(trim_tl)
-    //     .addTo(controller); // assign the scene to the controller
-
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#arborist-section",
-    //     //reverse: false,
-    //     duration: "50%", // the scene should last for a scroll distance of 100px
-    //   })
-    //     // .addIndicators({
-    //     //   name:"Enter Animation"
-    //     // })
-    //     .setPin("#arborist-section") // pins the element for the the scene's duration
-    //     .setTween(treezoom_tl)
-    //     .addTo(controller); // assign the scene to the controller
-
-    //   new scrollmagic.Scene({
-    //     triggerElement: "#stump-section",
-    //     //reverse: false,
-    //     duration: "50%", // the scene should last for a scroll distance of 100px
-    //   })
-    //     // .addIndicators({
-    //     //   name:"Enter Animation"
-    //     // })
-    //     .setPin("#stump-section") // pins the element for the the scene's duration
-    //     .setTween(section4tl)
-    //     .addTo(controller); // assign the scene to the controller
     }
   }, []);
 
