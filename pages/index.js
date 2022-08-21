@@ -21,9 +21,18 @@ export default function Home() {
 
       const {ScrollTrigger} = require("gsap/ScrollTrigger");
 
+     
+
       console.log("SCROLL TRIGGER", ScrollTrigger);
 
       gsap.registerPlugin(ScrollTrigger);
+
+      ScrollTrigger.config({
+        // a comma-delimited list of events that trigger a refresh. 
+        // default: "visibilitychange,DOMContentLoaded,load,resize"
+        // so you could remove the "resize" one:
+        autoRefreshEvents: "visibilitychange,DOMContentLoaded,load"
+      });
 
       //functions to play /stop video
       const playVideo = () => {
@@ -64,7 +73,6 @@ export default function Home() {
         start: "top top",
         pin:true,
         pinSpacing: true,
-        anticipatePin: 1,
         end: "20%",
         invalidateOnRefresh:false,
         onToggle: self => {
@@ -123,7 +131,6 @@ export default function Home() {
         start: "top top",
         pin:true,
         pinSpacing: true,
-        anticipatePin: 1,
         //pinType: "transform",
         scrub:true,
         end: "50%",
@@ -149,7 +156,6 @@ export default function Home() {
         start: "top top",
         pin:true,
         pinSpacing: true,
-        anticipatePin: 1,
         //pinType: "transform",
         scrub:true,
         end: "50%",
@@ -195,7 +201,6 @@ export default function Home() {
         start: "top top",
         pin:true,
         pinSpacing: true,
-        anticipatePin: 1,
         //pinType: "transform",
         scrub:true,
         end: "50%",
@@ -221,7 +226,6 @@ export default function Home() {
         start: "top top",
         pin:true,
         pinSpacing: true,
-        anticipatePin: 1,
         //pinType: "transform",
         scrub:true,
         end: "50%",
