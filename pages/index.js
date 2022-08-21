@@ -249,7 +249,11 @@ export default function Home() {
   };
 
   return (
+   
     <div className="app">
+      <Head key="home_head">
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"></meta>
+      </Head>
       <section className="hero-section">
         <a role="button" href="javascript:void(0);" onClick={()=>{document.getElementById('contact_section').scrollIntoView(true)}} style={{zIndex:"99999"}}>
           contact
