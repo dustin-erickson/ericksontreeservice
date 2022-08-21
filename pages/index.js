@@ -329,8 +329,8 @@ export default function Home() {
           />
           Erickson Tree Service has been servicing South Dakota for 10 years. We
           are a veteran-owned and operated business, and we take pride in our work.
-          We are fully equipped, insured and bonded. Our
-          staff of certified arborists have the knowledge and experience to
+          We are fully equipped, insured, and bonded. Our
+          staff of certified arborists has the knowledge and experience to
           properly care for your trees. We offer a wide range of services,
           including tree trimming, tree removal, stump removal, and professional
           ISA consulting.
@@ -358,7 +358,7 @@ export default function Home() {
             We love trees but there are many reasons why a tree may need to be cut down.
             The tree is dead or dying, interfering with infrastructure, structurally unsound, 
             or poses a safety hazard. In any case, the work needs to be done with specialized 
-            equipment by trained professionals. We have the expirence and equipment to safely and efficiently 
+            equipment by trained professionals. We have the experience and equipment to safely and efficiently 
             remove trees from your property.
           </div>
           <div className="scene">
@@ -395,7 +395,8 @@ export default function Home() {
             </div>
             <div className="blurb">
               <h5>Right Equipment</h5>
-              Erickson tree service is your go-to arborist when you need tree removal services. We have the necessary equipment and experience to successfully remove trees while protecting the surrounding environment. Trust us to get the job done right!
+              Erickson tree service is your go-to arborist when you need tree removal services. 
+              We have the necessary equipment and experience to successfully remove trees while protecting the surrounding environment. Trust us to get the job done right!
             </div>
           </div>
           <div className="grid-item span-6 span-12-small">
@@ -410,7 +411,8 @@ export default function Home() {
             </div>
             <div className="blurb">
               <h5>Huge Jobs</h5>
-              We are able to handle any tree removal job, no matter how big or small. We are experienced in working in tight spaces and near homes and businesses, we can safely remove trees near power lines or other hazards.
+              We can handle any tree removal job, no matter how big or small. 
+              We are experienced in working in tight spaces and near homes and businesses, we can safely remove trees near power lines or other hazards.
             </div>
           </div>
           <div className="emg_container grid-item span-12 span-12-small">
@@ -427,7 +429,7 @@ export default function Home() {
               <h5>Emergency Tree Removal</h5>
               We live in an area that is prone to severe weather, which can often lead to damage to trees. 
               This damage can in turn cause damage to property, structures, and power lines. 
-              If you find yourself in need of expidient tree removal or professional assessment, 
+              If you find yourself in need of expedient tree removal or professional assessment, 
               please don&apos;t hesitate to contact us. We&apos;re here to help!
             </div>
           </div>
@@ -439,7 +441,7 @@ export default function Home() {
         <div className="blurb">
           <h3>Trimming</h3>
           Tree trimming is an important part of tree care. Trimming can help to
-          improve the tree&apos;s appearance, remove dead or damaged branches, and
+          improve the tree&apos;s appearance, remove dead or damaged branches and
           promote new growth. It is important to trim trees regularly to keep them
           healthy and looking their best.
         </div>
@@ -479,8 +481,8 @@ export default function Home() {
             </div>
             <div className="blurb">
               <h5>Any Location or Condition</h5>
-              Often times trimming is required to avoid damage to our homes. We can get your tree no matter the location.
-              We are open year round, ready to serve our community.  No matter the time of year or weather conditions.
+              Often trimming is required to avoid damage to our homes. We can get your tree no matter the location.
+              We are open year-round, ready to serve our community.  No matter the time of year or weather conditions.
             </div>
           </div>
           <div className="grid-item span-6 span-12-small">
@@ -510,8 +512,8 @@ export default function Home() {
             </div>
             <div className="blurb">
               <h5>Enjoy The View</h5>
-              We often do our trimming high up off the gound and are afforded wonderful views of the surrounding area.
-              We&apos;re proud to be the recipient of back-to-back &quot;best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. Contact us today for a free consultation.
+              We often do our trimming high up off the ground and are afforded wonderful views of the surrounding area.
+              We&apos;re proud to be the recipient of back-to-back &quot;Best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. Contact us today for a free consultation.
             </div>
           </div>
         </div>  
@@ -520,9 +522,8 @@ export default function Home() {
       <section className="sticky-section" id="stump-section">
         <div className="blurb">
           <h3>Stump Removal</h3>
-          When you have a tree stump in your yard, it can be an eyesore and make
-          it difficult to mow the lawn. Tree stump removal is a simple process
-          only with the right equipment. We have to knowlage and equipment to get rid of those stumps!
+          When you have a tree stump in your yard, it can be an eyesore and make it difficult to mow the lawn. 
+          Tree stump removal is a simple process only with the right equipment. We have to knowledge and equipment to get rid of those stumps.
         </div>
         <div className="scene">
           <div className="scene-images" style={{minHeight:"250px"}}>
@@ -599,10 +600,10 @@ export default function Home() {
       
       <section className="sticky-section" id="arborist-section">
         <div className="blurb">
-          <h3>Safety</h3>
-          It is important to properly trim trees around power lines. This includes
-          removing any branches that are close to the lines, as well as trimming
-          back any branches that could potentially fall onto the lines.
+          <h3>Why Choose Us?</h3>
+          An arborist is a professional who is trained and experienced in the care of individual trees. 
+          We are knowledgeable in the areas of tree biology, tree identification, tree selection, tree planting, tree pruning, tree removal, and tree health care. 
+          We can provide tree services that are safe and effective, and that meet the specific needs of the trees they are caring for and the surrounding environment.
         </div>
         <div className="tree-sur">
           <div className="tree-zoom">
@@ -629,28 +630,38 @@ export default function Home() {
         <div className="contact-container" style={{display:'grid', maxWidth:"1200px", gridTemplateColumns: "repeat(12, 1fr)"}}>
           <h2 className="presentation-title">Contact Us</h2>
           <div className="contact-info span-12-small">
-            <p>
-              Need an esitmate? Questions? Comments?<br /> 
-              We would love to hear from you. <br />
-              Contact us via mail, email, phone or this contact form. <br />
-              Check us out on facebook! <br />
-              
+            <p style={{marginBottom:'50px', fontSize:'15pt', textAlign:'center'}}>
+              Questions? Comments? Need an Estimate? We would love to hear from you. Contact us today!
+              <br />
+              <a href="https://www.facebook.com/Ericksontrees">Check us out on facebook!</a>
             </p>
-            <div style={{display:'flex', gap:'25px', fontSize:'.8rem', margin:"0 auto"}}>
+            <div style={{display:'flex', gap:'25px', fontSize:'1rem', margin:"0 auto"}}>
               <div className="company-address">
                 Erickson Tree Service<br />
                 PO Box 1282<br />
                 Mitchell, SD 57301
               </div>
               <div className="company-phone">
-                <a href="tel:6057701376">(605)-770-1376</a>
-                <a href="mailto:ericksontreeservice@gmail.com">Email</a>
-                <a href="https://www.facebook.com/Ericksontrees">Facebook</a>
+                <div style={{display:'flex', justifyContent:"center"}}>
+                  <a style={{marginRight:"8px", display:'flex', justifyContent:"center"}} href="tel:6057701376">
+                    <img style={{width:'20px'}} src="/images/phone_icon.svg" alt="phone icon"/>
+                  </a>
+                  <a style={{marginRight:'auto'}} href="tel:6057701376">(605)-770-1376</a>
+                </div>
+                <div style={{display:'flex', justifyContent:"center"}}>
+                  <a style={{marginRight:"8px", display:'flex', justifyContent:"center"}} href="mailto:ericksontreeservice@gmail.com">
+                    <img style={{width:'20px'}} src="/images/email_web_icon.svg" alt="email icon"/>
+                  </a>
+                  <a style={{marginRight:'auto'}} href="mailto:ericksontreeservice@gmail.com">Email</a>
+                </div>
+                <div style={{display:'flex', justifyContent:"center"}}>
+                  <a style={{marginRight:"8px", display:'flex', justifyContent:"center"}} href="https://www.facebook.com/Ericksontrees">
+                    <img style={{width:'20px'}} src="/images/social_icon.svg" alt="icon" />
+                  </a>
+                  <a style={{marginRight:'auto'}} href="https://www.facebook.com/Ericksontrees">Facebook</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="contact-form span-12-small" style={{gridColumn:'span 6'}}>
-          <ContactForm />
           </div>
         </div>
        

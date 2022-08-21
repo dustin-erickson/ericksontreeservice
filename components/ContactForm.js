@@ -91,6 +91,7 @@ const ContactForm = () => {
             className='formField'
             onFocus={(e) => e.preventDefault()}
             name="message"
+            rows="5"
             onInput={(e) => setMessage(e.target.value)}
             value={message}
             required

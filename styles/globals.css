@@ -292,19 +292,21 @@ section:not(.sticky-section, .video-section) {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  grid-column: span 6;
+  grid-column: span 12;
   margin: 0 auto;
 }
 
 .company-phone {
   display: flex;
   flex-direction: column;
+  min-height:80px;
+  justify-content: space-between;
+  margin-bottom: 180px!important;
 }
 
 .company-phone > a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 8px;
 }
 
 .contact-section {
