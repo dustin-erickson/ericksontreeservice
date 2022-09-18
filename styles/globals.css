@@ -52,6 +52,8 @@ section:not(.sticky-section, .video-section) {
   display: flex;
   align-items: center;
   min-height: 100vh;
+  scroll-margin-top: -10px;
+
 }
 
 #covervid {
