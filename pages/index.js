@@ -327,7 +327,7 @@ export default function Home() {
           <img
             src="images/isa-logo.png"
           />
-          Erickson Tree Service has been servicing South Dakota for 10 years. We
+          Erickson Tree Service has been servicing South Dakota for over 5 years. We
           are a veteran-owned and operated business, and we take pride in our work.
           We are fully equipped, insured, and bonded. Our
           staff of certified arborists has the knowledge and experience to
