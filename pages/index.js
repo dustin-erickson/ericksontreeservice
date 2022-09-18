@@ -430,7 +430,7 @@ export default function Home() {
               We live in an area that is prone to severe weather, which can often lead to damage to trees. 
               This damage can in turn cause damage to property, structures, and power lines. 
               If you find yourself in need of expedient tree removal or professional assessment, 
-              please don&apos;t hesitate to contact us. We&apos;re here to help!
+              please don&apos;t hesitate to <a href="#contact_section" style={{color:'#7E55C7', fontWeight:'bold'}}>Contact Us</a>. We&apos;re here to help!
             </div>
           </div>
         </div>
@@ -513,7 +513,7 @@ export default function Home() {
             <div className="blurb">
               <h5>Enjoy The View</h5>
               We often do our trimming high up off the ground and are afforded wonderful views of the surrounding area.
-              We&apos;re proud to be the recipient of back-to-back &quot;Best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. Contact us today for a free consultation.
+              We&apos;re proud to be the recipient of back-to-back &quot;Best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. <a href="#contact_section" style={{color:'#7E55C7', fontWeight:'bold'}}>Contact Us</a> today for a free consultation.
             </div>
           </div>
         </div>  
@@ -523,7 +523,7 @@ export default function Home() {
         <div className="blurb">
           <h3>Stump Removal</h3>
           When you have a tree stump in your yard, it can be an eyesore and make it difficult to mow the lawn. 
-          Tree stump removal is a simple process only with the right equipment. We have to knowledge and equipment to get rid of those stumps.
+          Tree stump removal is a simple process with the right equipment. We have to knowledge and equipment to get rid of those stumps.
         </div>
         <div className="scene">
           <div className="scene-images" style={{minHeight:"250px"}}>
@@ -559,9 +559,8 @@ export default function Home() {
               </div>
             </div>
             <div className="blurb">
-              <h5>Any Location or Condition</h5>
-              Often times trimming is required to avoid damage to our homes. We can get your tree no matter the location.
-              We are open year round, ready to serve our community.  No matter the time of year or weather conditions.
+              <h5>What Is Left?</h5>
+              A stump is the remaining portion of a tree trunk after the tree has been cut down. The stump is typically left in the ground because it can be difficult and expensive to remove.
             </div>
           </div>
           <div className="grid-item span-6 span-12-small">
@@ -575,8 +574,8 @@ export default function Home() {
               </div>
             </div>
             <div className="blurb">
-              <h5>Power Lines</h5>
-              It is important to properly trim trees around power lines. This includes removing any branches that are close to the lines, as well as trimming back any branches that could potentially fall onto the lines. 
+              <h5>Why Remove It?</h5>
+              Many choose to leave their stumps in place and simply cover them with soil or mulch. However, over time, stumps can become unsightly and may even pose a safety hazard. 
             </div>
           </div>
           <div className="emg_container grid-item span-12 span-12-small">
@@ -590,9 +589,9 @@ export default function Home() {
               </div>
             </div>
             <div className="blurb">
-              <h5>Enjoy The View</h5>
-              We often do our trimming high up off the gound and are afforded wonderful views of the surrounding area.
-              We&apos;re proud to be the recipient of back-to-back &quot;best of Mitchell, SD&quot; business of the year awards. When you choose us, you can be confident that you&apos;re getting the best tree service in the area. Contact us today for a free consultation.
+              <h5>Professional Option</h5>
+              If not done carefully, stump removal can damage lawns, gardens, and landscaping. For this reason, you may choose to have your stumps removed by a professional.
+              We have the right equipment to remove the stump and getting rid of it without damaging the surrounding area. <a href="#contact_section" style={{color:'#7E55C7', fontWeight:'bold'}}>Contact Us Now.</a>
             </div>
           </div>
         </div>  
