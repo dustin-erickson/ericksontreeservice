@@ -256,6 +256,8 @@ export default function Home() {
    
     <div className="app">
       <Head key="home_head">
+        <title>Erickson Tree Service</title>
+        <meta name="description" content="Author: Dustin Erickson, Illustrator: Dustin Erickson, Category: Tree Service, , Length: 1 page" />
         <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"></meta>
       </Head>
       <section className="hero-section">
