@@ -627,7 +627,7 @@ export default function Home() {
       </section>
 
       <section className="contact-section" id="contact_section">
-        <img style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
+        <img className="bg_img" style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
         <div className="contact-container" style={{display:'grid', maxWidth:"1200px", gridTemplateColumns: "repeat(12, 1fr)"}}>
           <h2 className="presentation-title">Contact Us</h2>
           <div className="contact-info span-12-small">
