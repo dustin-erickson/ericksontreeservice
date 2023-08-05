@@ -265,17 +265,17 @@ export default function Home() {
           contact
         </a>
         <img
-          className="hero_bg"
+          className="hero_bg bg_img"
           id="bg_layer3"
           src="images/forest_back_97.png"
         />
         <img
-          className="hero_bg"
+          className="hero_bg bg_img"
           id="bg_layer2"
           src="images/forest_back_96.png"
         />
         <img
-          className="hero_bg"
+          className="hero_bg bg_img"
           id="bg_layer1"
           src="images/deerscape_95.png"
         />
@@ -382,7 +382,7 @@ export default function Home() {
       </section>
       
       <section className="presentation-section" id="removalsection2">
-        <img style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
+        <img className="bg_img" style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
         <div className="grid-container">
         <h2 className="presentation-title">On The Job</h2>
           <div className="grid-item span-6 span-12-small">
@@ -468,7 +468,7 @@ export default function Home() {
       
       
       <section className="presentation-section" id="trim-section1">
-        <img style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
+        <img className="bg_img" style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
         <div className="grid-container">
         <h2 className="presentation-title">Love My Job</h2>
           <div className="grid-item span-6 span-12-small">
@@ -547,7 +547,7 @@ export default function Home() {
       </section>
       
       <section className="presentation-section" id="stump-section1">
-        <img style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
+        <img className="bg_img" style={{zIndex:"1",position:"absolute",top:"0",left:"0",transform:"translate(0, -99%)"}} src="images/forest_transition.png" />
         <div className="grid-container">
         <h2 className="presentation-title">Stumped</h2>
           <div className="grid-item span-6 span-12-small">
